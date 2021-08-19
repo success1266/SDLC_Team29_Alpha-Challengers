@@ -32,6 +32,28 @@ SWOT analysis is a strategic planning tool that evaluates a project's strengths,
 # Image
 ![Swot](https://xp.io/storage/2FlDPVmn.jpg)
 
+## 4W's and 1'H
+
+## Who  
+
+This is an overview of how bank management system works in short and can be used by an authorized person.
+
+## What
+
+A project where brief description of bank management system is discussed on how to maintain a person's account in a bank.
+
+## When
+
+It is made as a part of LTTS genesis Project work.
+
+## Where
+
+It's made using Visual Studio Code IDE on Windows 10.
+
+## How
+
+By using the basic functionality of a bank account management system.
+
 
 
 
