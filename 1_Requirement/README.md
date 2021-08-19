@@ -55,5 +55,33 @@ It's made using Visual Studio Code IDE on Windows 10.
 By using the basic functionality of a bank account management system.
 
 
+## Detail requirements
+### H igh Level Requirements:
+
+| ID | Description	  | Category  | Status  |
+| :---:   | :-: | :-: |  :-: | 
+| HHR_01 | Menu should be display proper | Technical | - |
+| HHR_02 | User should able to Log in with existing credentials  | Technical | - |
+| HHR_03 | User should Unable to login with invalid credentials  | Technical | - |
+| HHR_04 | Function Should be work properly | Technical | - |
+| HHR_05 | User shall be able decide whether he wants to continue or not?	| Scenario Base | - |
+| HHR_06 | User able to log out	| Technical | - |
+
+
+
+### Low level Requirements:
+
+| ID | Description	  | Category | HRR_ID | Status  |
+| :---:   | :-: | :-: |  :-: | :-: |
+| LR-01 | While adding a new User details the user shall not put any null value in the field, if it has NULL values it will show fail otherwise it will show SUCCESS | Technical | - | - |
+| LR-02 | While updating customer details option will search for employee in the file. If it contains in the list it will edit otherwise it will show NOT FOUND.| Technical | - | - |
+| LR-03 | While withdrawal amount from bank, the amount should be available in that account. If it is available then it will shown withdrawal else amount is insufficient | - | - |
+| LR-04 | While deleting a customer will search for employee in the file. If it contains in the list it will show "Employee Data is Deleted Successfuly" otherwise it will show NOT FOUND.  | Technical | - | - |
+| LR-05 | The pin is provided for accessing ATM feactures is valid of NOT. If it is valid then it will show SUCCESS otherwise, It will shown Failure| Technical | - | - |
+| LR-06 | Comparing the input name with Customer name in the list| Technical | - | - |
+| LR-07 | Verify the amount we deposit in bank it will add that amount to that particular use only| Technical | - | - |
+| LR-08 | Verify the amount we withdrawal from bank it will deduct from that amount to shown the update amount in that account| Technical | - | - |
+
+
 
 
