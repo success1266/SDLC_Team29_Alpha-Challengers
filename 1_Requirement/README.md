@@ -30,7 +30,7 @@ startlogin()- Login and start using bank management system.
 SWOT analysis is a strategic planning tool that evaluates a project's strengths, weaknesses, opportunities, and threats. It entails defining the project's goal and determining which internal and external factors are favourable and unfavourable to accomplishing that goal. The strengths and weaknesses usually arise from within an organisation, and the opportunities and threats from external sources.
 
 # Image
-![Swot](https://xp.io/storage/2FlDPVmn.jpg)
+![Swot](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/blob/master/Others/swot.jpg)
 
 ## 4W's and 1'H
 
