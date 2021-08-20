@@ -17,13 +17,13 @@ Runs on any System with C compiler
 
 # FUNCTIONAL REQUIREMENTS
 
-displaymenu()- displays the menu welcome to the main menu
+<h5>displaymenu()-</h5> displays the menu welcome to the main menu
 
-displayoption()- displays the option to choosen.
+<h5>displayoption()-</h5> displays the option to choosen.
 
-start_functions_of_bank_management()- starts the functions given in the display menu.
+<h5>start_functions_of_bank_management()-</h5> starts the functions given in the display menu.
 
-startlogin()- Login and start using bank management system. 
+<h5>startlogin()-</h5> Login and start using bank management system. 
 
 # NON-FUNCTIONAL REQUIREMENTS
 <h5>Performance constraints:</h5>
