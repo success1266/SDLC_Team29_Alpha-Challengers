@@ -1,46 +1,21 @@
-# Requirement
+# Requirement #
 
-# BANK MANAGEMENT SYSTEM
+## Introduction
+
+The Bank Account Management System is an application for maintaining a person's account in a bank. In this project we tried to show the working of a banking account system and cover the basic functionality of a Bank Account Management System. To develop a project for solving financial applications of a customer in banking environment in order to nurture the needs of an end banking user by providing various ways to perform banking tasks. Also to enable the user’s work space to have additional functionalities which are not provided under a conventional banking project. The Bank Account Management System undertaken as a project is based on relevant technologies. The main aim of this project is to develop software for Bank Account Management System. This project has been developed to carry out the processes easily and quickly, which is not possible with the manuals systems, which are overcome by this software. The project is developed using C as a prgoramming language.
 
 Bank Management System is based on a concept to generate and maintain daily payment transactions with the customer’s account. Before stepping into the main system a user has to pass through login system to get access, then only he/she can use all the features.
 
-# System Requirements
--REQUIREMENTS FOR SOFTWARE To complete this project, you'll need the following hardware and software:
-1)The C programming language was used to create this application.
+Our  motto  is  to  develop a  software  program  for  managing  the  entire  bank process  related  to  Administration  accounts  customer  accounts  and  to  keep each every track about their property and their various transaction processes efficiently.
 
-2)Windows/Linux compatibility
+## Research
 
-3)Code in Visual Studio
+In the existing Bank Management System, The admin has only few functionality like online fund transfer, opening an account, deposits, withdraws and updating the details, online payment services. And some bank using traditional way of maintaining details of a user in a bank was to enter the details and record them. The use of paper work in handling some of these processes could lead to human error, papers may end up in the wrong hands and not forgettingthe fact that this is time consuming.
 
-# -HARDWARE REQUIREMENTS
-Runs on any System with C compiler
+Therefore we developed Bank Managemen System for Maintaing the customer data in bank database. And we are adding two more features on the existing Bank Management System 1) Exchanging Currency and 2) ATM Transactions.
+Thus, in order to reduce time consumption and human effort the Bank Management System can applied in anywhere where user want to save the user details in Database.. The purpose of this systems to reduce time consumption and human efforts. 
 
-# FUNCTIONAL REQUIREMENTS
 
-<h5>displaymenu()-</h5> displays the menu welcome to the main menu
-
-<h5>displayoption()-</h5> displays the option to choosen.
-
-<h5>start_functions_of_bank_management()-</h5> starts the functions given in the display menu.
-
-<h5>startlogin()-</h5> Login and start using bank management system. 
-
-# NON-FUNCTIONAL REQUIREMENTS
-<h5>Performance constraints:</h5>
- This system must be fit according to the performance wise. It should
-use less memory and will be easily accessible by the user. Memory
-
-<h5>Hardware limitations:</h5>
- It should be designed in such a way that cheap hardware must be
-installed to access and use it effectively. It should be platform independent.
-
-<h5>Maintainable:</h5>
- Each of the modules should be designed in such a way that a new
-module can easily be integrated with it.
-
-<h5> Reliable:</h5>
-
-<h5>Testable:</h5>
 
 ## BENEFITS
 
@@ -60,35 +35,80 @@ module can easily be integrated with it.
 
 8. Which will in turn lead to a faster growth in profit of the bank. 
 
-## FEATURES
+
+## Cost & FEATURES:
+
+The Key Features of Bank Management System:
 
 1. Create a bank account
-The user can create an account by:
+   The user can create an account by:
     - Proving the name of the account holder. Each account is identify by an account number.
-    - Selecting account type(Saving account or current account).
+    - Selecting account type(Saving account or current account).    
     
 2. Support of deposit and withdraw opeartions and maintaing a minimum balance.
 
 4. Maintain Transactions.
 
-6. Search and display the information account.
+5. Search and display the information account.
 
-8. Update an account.
+6. Update an account.
 
-10. Remove existing account.
+7. Remove existing account.
 
-12. View customer's list.
+8. View customer's list.
 
-14. ATM feature.
+9. ATM feature.
    
+
+## FUNCTIONAL REQUIREMENTS
+
+<h5>displaymenu()-</h5> displays the menu welcome to the main menu
+
+<h5>displayoption()-</h5> displays the option to choosen.
+
+<h5>start_functions_of_bank_management()-</h5> starts the functions given in the display menu.
+
+<h5>startlogin()-</h5> Login and start using bank management system. 
+
+
+# NON-FUNCTIONAL REQUIREMENTS
+<h5>Performance constraints:</h5>
+ This system must be fit according to the performance wise. It should
+use less memory and will be easily accessible by the user. Memory
+
+<h5>Hardware limitations:</h5>
+ It should be designed in such a way that cheap hardware must be
+installed to access and use it effectively. It should be platform independent.
+
+<h5>Maintainable:</h5>
+ Each of the modules should be designed in such a way that a new
+module can easily be integrated with it.
+
+<h5> Reliable:</h5>
+
+<h5>Testable:</h5>
+
+
+## Hardware and Software Requirements:
+*	RAM atleast 1GB
+
+*	CPU 1GHz or above
+
+*	local storage of 100GB or above
+
+* Visual Studio
+
+*	Ubuntu or Windows OS required with C compiler pre installed.
+
 
 
 # SWOT ANALYSIS
 
 SWOT analysis is a strategic planning tool that evaluates a project's strengths, weaknesses, opportunities, and threats. It entails defining the project's goal and determining which internal and external factors are favourable and unfavourable to accomplishing that goal. The strengths and weaknesses usually arise from within an organisation, and the opportunities and threats from external sources.
 
-# Image
+
 ![Swot](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/blob/master/Others/swot.jpg)
+#### Figure 1: SWOT Analysis of Bank Managment System
 
 ## 4W's and 1'H
 
@@ -114,7 +134,7 @@ By using the basic functionality of a bank account management system.
 
 
 ## Detail requirements
-### H igh Level Requirements:
+### High Level Requirements:
 
 | ID | Description	  | Category  | Status  |
 | :---:   | :-: | :-: |  :-: | 
