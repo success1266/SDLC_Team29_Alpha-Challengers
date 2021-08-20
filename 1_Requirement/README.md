@@ -62,31 +62,31 @@ The Key Features of Bank Management System:
 
 ## FUNCTIONAL REQUIREMENTS
 
-<h5>displaymenu()-</h5> displays the menu welcome to the main menu
+* <h5>displaymenu()-</h5> displays the menu welcome to the main menu
 
-<h5>displayoption()-</h5> displays the option to choosen.
+* <h5>displayoption()-</h5> displays the option to choosen.
 
-<h5>start_functions_of_bank_management()-</h5> starts the functions given in the display menu.
+* <h5>start_functions_of_bank_management()-</h5> starts the functions given in the display menu.
 
-<h5>startlogin()-</h5> Login and start using bank management system. 
+* <h5>startlogin()-</h5> Login and start using bank management system. 
 
 
-# NON-FUNCTIONAL REQUIREMENTS
-<h5>Performance constraints:</h5>
+## NON-FUNCTIONAL REQUIREMENTS
+ * <h5>Performance constraints:</h5>
  This system must be fit according to the performance wise. It should
 use less memory and will be easily accessible by the user. Memory
 
-<h5>Hardware limitations:</h5>
+* <h5>Hardware limitations:</h5>
  It should be designed in such a way that cheap hardware must be
 installed to access and use it effectively. It should be platform independent.
 
-<h5>Maintainable:</h5>
+* <h5>Maintainable:</h5>
  Each of the modules should be designed in such a way that a new
 module can easily be integrated with it.
 
-<h5> Reliable:</h5>
+* <h5> Reliable:</h5>
 
-<h5>Testable:</h5>
+* <h5>Testable:</h5>
 
 
 ## Hardware and Software Requirements:
@@ -102,35 +102,39 @@ module can easily be integrated with it.
 
 
 
-# SWOT ANALYSIS
+## SWOT ANALYSIS
 
 SWOT analysis is a strategic planning tool that evaluates a project's strengths, weaknesses, opportunities, and threats. It entails defining the project's goal and determining which internal and external factors are favourable and unfavourable to accomplishing that goal. The strengths and weaknesses usually arise from within an organisation, and the opportunities and threats from external sources.
 
+![SWOT](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/blob/master/1_Requirement/SWOT.PNG)
 
-![Swot](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/blob/master/Others/swot.jpg)
 #### Figure 1: SWOT Analysis of Bank Managment System
 
 ## 4W's and 1'H
 
-## Who  
+### Who  
 
-This is an overview of how bank management system works in short and can be used by an authorized person.
+* This is an overview of how bank management system works in short and can be used by an authorized person.
+* For those who wants to save their time as well as money.
+* For those who want a dedicated application where the user can store the information so that it will be easy to access the details.
 
-## What
+### What
 
-A project where brief description of bank management system is discussed on how to maintain a person's account in a bank.
+* A project where brief description of bank management system is discussed on how to maintain a person's account in a bank.
 
-## When
+### When
 
-It is made as a part of LTTS genesis Project work.
+* This application will helpful for when you don’t have a time and money to do that tedious task.
 
-## Where
+* And also when you want to edit the specific information and search of specific employee
 
-It's made using Visual Studio Code IDE on Windows 10.
+### Where
 
-## How
+* This application can be used in any bank who want manage there customer and transaction details
 
-By using the basic functionality of a bank account management system.
+### How
+
+* By using the basic functionality of a bank account management system. 
 
 
 ## Detail requirements
