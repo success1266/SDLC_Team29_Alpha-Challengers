@@ -1,4 +1,4 @@
-# SDLC_Team29_Alpha-Challengers.
+# SDLC_Team29_Alpha-Challengers
 # BANK MANAGEMENT SYSTEM
 ![unnamed](https://user-images.githubusercontent.com/86407156/130089245-66fcb759-3659-4cd3-ae8f-8ff88f833c33.png)
 
