@@ -42,7 +42,7 @@ module can easily be integrated with it.
 
 <h5>Testable:</h5>
 
-# BENEFITS
+## BENEFITS
 
 1. Provide flexibility.
 
@@ -60,7 +60,7 @@ module can easily be integrated with it.
 
 8. Which will in turn lead to a faster growth in profit of the bank. 
 
-#FEATURES
+## FEATURES
 
 1. Create a bank account
 The user can create an account by:
