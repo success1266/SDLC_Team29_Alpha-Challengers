@@ -25,6 +25,23 @@ start_functions_of_bank_management()- starts the functions given in the display 
 
 startlogin()- Login and start using bank management system. 
 
+# NON-FUNCTIONAL REQUIREMENTS
+<h5>Performance constraints:</h5>
+ This system must be fit according to the performance wise. It should
+use less memory and will be easily accessible by the user. Memory
+
+<h5>Hardware limitations:</h5>
+ It should be designed in such a way that cheap hardware must be
+installed to access and use it effectively. It should be platform independent.
+
+<h5>Maintainable:</h5>
+ Each of the modules should be designed in such a way that a new
+module can easily be integrated with it.
+
+<h5> Reliable:</h5>
+
+<h5>Testable:</h5>
+
 # SWOT ANALYSIS
 
 SWOT analysis is a strategic planning tool that evaluates a project's strengths, weaknesses, opportunities, and threats. It entails defining the project's goal and determining which internal and external factors are favourable and unfavourable to accomplishing that goal. The strengths and weaknesses usually arise from within an organisation, and the opportunities and threats from external sources.
