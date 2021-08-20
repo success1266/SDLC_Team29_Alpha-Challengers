@@ -42,6 +42,47 @@ module can easily be integrated with it.
 
 <h5>Testable:</h5>
 
+# BENEFITS
+
+1. Provide flexibility.
+
+2. Customer won't have to wait for long time.
+
+3. Everything will be very fast instead of hand written.
+
+4. For doing work more accurately. No calculation problem as it will be done by computers.
+
+5. Time consumption will be less.
+
+6. A proper and managed detail of each and every customer will be maintained.
+
+7. Customer satisfaction will be good.
+
+8. Which will in turn lead to a faster growth in profit of the bank. 
+
+#FEATURES
+
+1. Create a bank account
+The user can create an account by:
+    - Proving the name of the account holder. Each account is identify by an account number.
+    - Selecting account type(Saving account or current account).
+    
+2. Support of deposit and withdraw opeartions and maintaing a minimum balance.
+
+4. Maintain Transactions.
+
+6. Search and display the information account.
+
+8. Update an account.
+
+10. Remove existing account.
+
+12. View customer's list.
+
+14. ATM feature.
+   
+
+
 # SWOT ANALYSIS
 
 SWOT analysis is a strategic planning tool that evaluates a project's strengths, weaknesses, opportunities, and threats. It entails defining the project's goal and determining which internal and external factors are favourable and unfavourable to accomplishing that goal. The strengths and weaknesses usually arise from within an organisation, and the opportunities and threats from external sources.
