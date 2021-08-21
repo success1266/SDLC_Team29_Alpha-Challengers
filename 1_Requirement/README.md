@@ -35,6 +35,8 @@ Thus, in order to reduce time consumption and human effort the Bank Management S
 
 8. Which will in turn lead to a faster growth in profit of the bank. 
 
+9. It increases efficiency and saves the time of the customers
+
 
 ## Cost & FEATURES:
 
