@@ -60,6 +60,8 @@ The Key Features of Bank Management System:
 8. View customer's list.
 
 9. ATM feature.
+
+10. Saftey Meter (To check vigilance in online banking)
    
 
 ## FUNCTIONAL REQUIREMENTS
@@ -150,6 +152,7 @@ SWOT analysis is a strategic planning tool that evaluates a project's strengths,
 | HLR_04 | Function Should be work properly | Technical | - |
 | HLR_05 | User shall be able decide whether he wants to continue or not?	| Scenario Base | - |
 | HLR_06 | User able to log out	| Technical | - |
+| HLR_07 | User able to check his saftey percentage in online banking	| Technical | - |
 
 
 
@@ -165,6 +168,7 @@ SWOT analysis is a strategic planning tool that evaluates a project's strengths,
 | LLR-06 | Comparing the input name with Customer name in the list| Technical | - | - |
 | LLR-07 | Verify the amount we deposit in bank it will add that amount to that particular use only| Technical | - | - |
 | LLR-08 | Verify the amount we withdrawal from bank it will deduct from that amount to shown the update amount in that account| Technical | - | - |
+| LLR-09 | Check to which extent a user is aware in online banking by giving YES or NO answer to questions asked| Technical | HLR-07 | - |
 
 
 
