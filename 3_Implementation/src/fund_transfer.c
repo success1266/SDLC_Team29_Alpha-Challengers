@@ -1,7 +1,6 @@
 #include "bank.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <windows.h>
 #include <stdbool.h>
 #include <conio.h>
 void fund_transfer()
@@ -69,7 +68,7 @@ retry:
         scanf("%d", &main_exit1);
         if (main_exit1 == 3)
             {
-            system("cls");
+            fflush(stdin);
             fund_transfer();
             }
         else
@@ -124,7 +123,7 @@ retry:
     add_invalid1:
         printf("\n\n\n\t\tEnter 1 to go to the main menu and 0 to exit:");
         scanf("%d", &main_exit);
-        system("cls");
+        fflush(stdin);
         if (main_exit == 1)
             menu();
         else if (main_exit == 0)
