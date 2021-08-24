@@ -25,3 +25,9 @@
 | L_16  | To check interest function |(1, 1000, 1)| 10 | 10 | Pass |
 | L_17 | To check interest function |(3, 6, 10000)| 1800 | 1800 | Pass |
 | L_18 | To check interest function |(1, 3, 50000)| 1500 | 1500 | Pass |
+
+| L_19  | To check whether file exits or not |INVALID FILE| FILE_NOT_FOUND | FILE_NOT_FOUND | Pass |
+| L_20 | To choose a invalid value |7| INVALID_ENTRY | INVALID_ENTRY | Pass |
+| L_21 | To check account exits or not |VALID_ACCOUNT| FOUND | FOUND | Pass |
+| L_22 | To check currency rates |1.09| RATE_FOUND_SUCCESSFULLY | RATE_FOUND_SUCCESSFULLY | Pass |
+| L_23 | To check whether program is being exited after choosing exit value |6| CLOSING_CURRENCY_TAB | CLOSING_CURRENCY_TAB | Pass |
