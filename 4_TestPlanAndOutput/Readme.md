@@ -1,4 +1,13 @@
-
+# High level Test Plan
+| ID | Description	  | Category  | Status  |
+| :---:   | :-: | :-: |  :-: | 
+| HLR_01 | Menu should be display proper | Technical | - |
+| HLR_02 | User should able to Log in with existing credentials  | Technical | - |
+| HLR_03 | User should Unable to login with invalid credentials  | Technical | - |
+| HLR_04 | Function Should be work properly | Technical | - |
+| HLR_05 | User shall be able decide whether he wants to continue or not?	| Scenario Base | - |
+| HLR_06 | User able to log out	| Technical | - |
+| HLR_07 | User able to check his saftey percentage in online banking	| Technical | - |
 
 # Low level Test Plan
 | TEST No. | Description | Expected Input |Expected output | Actaual Output | Pass/Fail |
