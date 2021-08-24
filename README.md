@@ -18,6 +18,9 @@ Build|Code Coverage|Cpp Check|Git inspector| Dynamic code Analysis|Static Code|U
 -------|----- |----------|----------------|---------------|---------------|--------------- |
 [![BUILD](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/build.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/build.yml)|[![Code Coverage](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/code_coverage.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/code_coverage.yml)|[![Cpp check](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/cppcheck.yml)|[![Git Inspector](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/git_inspector.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/git_inspector.yml)|[![Dynamic code analysis](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/valgrid.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/valgrid.yml)|[![Static Code Analysis](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/static_code_analysis.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/static_code_analysis.yml)|[![Unit Testing](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/unit_testing.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/unit_testing.yml)
 
+https://www.code-inspector.com/project/26827/score/svg
+https://www.code-inspector.com/project/26827/status/svg
+
 
 ## Folder Structure
 |Folder               | Description
