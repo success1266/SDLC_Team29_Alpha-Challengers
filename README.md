@@ -23,16 +23,16 @@ Our motto is to develop a software program for managing the entire bank process 
 |`3_Implementation`   | All code and documentation
 |`4_TestPlanAndOutput`| Documents with test plans and procedures and Output 
 |`5_Report`           | Code Execution Images and Videos
-|`6_ImagesAndVideos`   | Code Execution Images and Videos
+|`6_ImagesAndVideos   | Code Execution Images and Videos
 
 ## Contributors List and Summary
 
 PS No. | Name | Features | Issues Raised  |Issues Resolved| No Test Cases | Test Case Pass |
 -------|----- |----------|----------------|---------------|---------------|--------------- |
  99005681 | Anshika Kushwaha | - | - | - | - | -|
- 99005654 | Vijay Kumar Reddy Pullannagari | Fund Transfer | - | - | - | -|
+ 99005654 | Vijay Kumar Reddy Pullannagari | Fund Transfer | 1 | - | 5 | 5|
  99005674 | Saurabh Kumar | Online Safety Meter | 4 | 4 | 10 | 10 |
- 99005676 | Priya Raj | Create account,Transaction and checking Transaction | - | - | - | -|
+ 99005676 | Priya Raj | - | - | - | - | -|
  99005680 | Yuvaraj Dakhane | ATM Feature | - | - | - | -|
  99005659 | Amit Kumar Singh | Currency Exchange Feature and some constrains operation on it | - | - | - | -|
  99005774 | Kumar Ritesh | - | - | - | - | -|
