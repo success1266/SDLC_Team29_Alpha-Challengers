@@ -7,6 +7,7 @@ src/checkEdit.c \
 src/fundCheck.c \
 src/checkMenu.c \
 src/checkTrans.c \
+src/checkOSmeter.c \
 src/close.c \
 src/CurrencyExchange.c \
 src/currencyCheck.c \
