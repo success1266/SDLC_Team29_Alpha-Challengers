@@ -1,7 +1,6 @@
 #include "bank.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <windows.h>
 #include <stdbool.h>
 void see(void)
 {
@@ -23,7 +22,7 @@ void see(void)
         {
             if (add.acc_no == check.acc_no)
             {
-                system("cls");
+                fflush(stdin);
                 test = 1;
 
                 printf("\nAccount NO.:%d\nName:%s \nDOB:%d/%d/%d \nAge:%d \nAddress:%s \nCitizenship No:%s \nPhone number:%.0lf \nType Of Account:%s \nAmount deposited:$ %.2f \nDate Of Deposit:%d/%d/%d\n\n", add.acc_no, add.name, add.dob.month, add.dob.day, add.dob.year, add.age, add.address, add.citizenship, add.phone,
@@ -72,7 +71,7 @@ void see(void)
         {
             if (strcmpi(add.name, check.name) == 0)
             {
-                system("cls");
+                fflush(stdin);
                 test = 1;
                 printf("\nAccount No.:%d\nName:%s \nDOB:%d/%d/%d \nAge:%d \nAddress:%s \nCitizenship No:%s \nPhone number:%.0lf \nType Of Account:%s \nAmount deposited:$%.2f \nDate Of Deposit:%d/%d/%d\n\n", add.acc_no, add.name, add.dob.month, add.dob.day, add.dob.year, add.age, add.address, add.citizenship, add.phone,
                        add.acc_type, add.amt, add.deposit.month, add.deposit.day, add.deposit.year);
@@ -116,12 +115,12 @@ void see(void)
     fclose(ptr);
     if (test != 1)
     {
-        system("cls");
+        fflush(stdin);
         printf("\nRecord not found!!\a\a\a");
     see_invalid:
         printf("\nEnter 0 to try again,1 to return to main menu and 2 to exit:");
         scanf("%d", &main_exit);
-        system("cls");
+        fflush(stdin);
         if (main_exit == 1)
             menu();
         else if (main_exit == 2)
@@ -130,7 +129,7 @@ void see(void)
             see();
         else
         {
-            system("cls");
+            fflush(stdin);
             printf("\nInvalid!\a");
             goto see_invalid;
         }
@@ -142,14 +141,14 @@ void see(void)
     }
     if (main_exit == 1)
     {
-        system("cls");
+        fflush(stdin);
         menu();
     }
 
     else
     {
 
-        system("cls");
+        fflush(stdin);
         close();
     }
 }
