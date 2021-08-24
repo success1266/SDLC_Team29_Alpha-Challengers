@@ -25,6 +25,11 @@ Our motto is to develop a software program for managing the entire bank process 
 |`5_Report`           | Code Execution Images and Videos
 |`6_ImagesAndVideos`   | Code Execution Images and Videos
 
+## Project Analysis
+Build | Unity | Git Inspector (using github.io option) | Cpp Check | Code Inspector | Dynamic Code Analysis | Static Code Analysis | Code Coverage |
+------|-------|----------------------------------------|-----------|----------------|-----------------------|----------------------|----------------------|
+[![BUILD](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/build.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/build.yml) | [![Unit Testing](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/unit_testing.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/unit_testing.yml) | [![Git Inspector](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/git_inspector.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/git_inspector.yml) | [![Cpp check](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/cppcheck.yml) |  | [![Dynamic code analysis](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/valgrid.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/valgrid.yml) | [![Static Code Analysis](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/static_code_analysis.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/static_code_analysis.yml) | - [![Code Coverage](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/code_coverage.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/code_coverage.yml)
+
 ## Contributors List and Summary
 
 PS No. | Name | Features | Issues Raised  |Issues Resolved| No Test Cases | Test Case Pass |
@@ -39,6 +44,6 @@ PS No. | Name | Features | Issues Raised  |Issues Resolved| No Test Cases | Test
  99005805 | Rohan Kumar T | Check details of Existing account | - | 1 | - | -|
        
        
-## Project Analysis
+
 
        
