@@ -25,6 +25,11 @@ Our motto is to develop a software program for managing the entire bank process 
 |`5_Report`           | Code Execution Images and Videos
 |`6_ImagesAndVideos`   | Code Execution Images and Videos
 
+## Project Analysis
+Build|Code Coverage|Cpp Check|Git inspector| Dynamic code Analysis|Static Code|Unit Testing|
+-------|----- |----------|----------------|---------------|---------------|--------------- |
+[![BUILD](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/build.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/build.yml)|[![Code Coverage](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/code_coverage.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/code_coverage.yml)|[![Cpp check](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/cppcheck.yml)|[![Git Inspector](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/git_inspector.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/git_inspector.yml)|[![Dynamic code analysis](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/valgrid.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/valgrid.yml)|[![Static Code Analysis](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/static_code_analysis.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/static_code_analysis.yml)|[![Unit Testing](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/unit_testing.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/unit_testing.yml)
+
 ## Contributors List and Summary
 
 PS No. | Name | Features | Issues Raised  |Issues Resolved| No Test Cases | Test Case Pass |
@@ -37,8 +42,4 @@ PS No. | Name | Features | Issues Raised  |Issues Resolved| No Test Cases | Test
  99005659 | Amit Kumar Singh | Currency Exchange Feature and some constrains operation on it | - | - | - | -|
  99005774 | Kumar Ritesh | Remove an existing account | - | - | - | -|
  99005805 | Rohan Kumar T | Check details of Existing account | - | 1 | - | -|
-       
-       
-## Project Analysis
-
        
