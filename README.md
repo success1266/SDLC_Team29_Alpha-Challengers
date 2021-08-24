@@ -35,7 +35,7 @@ PS No. | Name | Features | Issues Raised  |Issues Resolved| No Test Cases | Test
  99005676 | Priya Raj | Create account,Transaction and check Transaction | - | - | - | -|
  99005680 | Yuvaraj Dakhane | ATM Feature | - | - | - | -|
  99005659 | Amit Kumar Singh | Currency Exchange Feature and some constrains operation on it | - | - | - | -|
- 99005774 | Kumar Ritesh | - | - | - | - | -|
+ 99005774 | Kumar Ritesh | Remove an existing account | - | - | - | -|
  99005805 | Rohan Kumar T | Check details of Existing account | - | 1 | - | -|
        
        
