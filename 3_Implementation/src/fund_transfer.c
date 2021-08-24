@@ -1,4 +1,4 @@
-#include "fun.h"
+#include "bank.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <windows.h>
