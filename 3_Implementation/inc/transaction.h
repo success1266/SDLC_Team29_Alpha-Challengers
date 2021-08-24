@@ -1,16 +1,5 @@
-/**
- * @file BMST.h
- * @author Yuvaraj Dakhane (yuvaraj.dakhane@ltts.com)
- * @brief 
- * @version 0.1
- * @date 2021-08-24
- * 
- * @copyright Copyright (c) 2021
- * 
- */
-
-#ifndef __ATM_H__
-#define __ATM_H__
+#ifndef __TRANSACTION_H__
+#define __TRANSACTION_H__
 #include <stdio.h>
 
 /**
@@ -21,11 +10,11 @@
 
 typedef enum trans_t
 {
-    FOUND,
-    NOT_FOUND,
-    DATA_SHOULD_NOT_EMPTY,
-    SUCCESS,
-    FAIL,
+     FOUND,
+    //NOT_FOUND,
+    //DATA_SHOULD_NOT_EMPTY,
+    // SUCCESS,
+    // FAIL,
 } trans_t;
 
 

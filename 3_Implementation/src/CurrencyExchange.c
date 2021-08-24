@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "fun.h"
+#include "bank.h"
 #define Swiss_Franc_rate 1.09;     /*Swiss Franc rate*/
 #define British_Pounds_rate 1.36;  /*British Pound rate*/
 #define Japanese_Yen_rate 0.0091;  /*Japanese Yen rate*/

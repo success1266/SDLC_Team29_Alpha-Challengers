@@ -4,6 +4,9 @@
 #include "bank.h"
 #include <math.h>
 #include <stdlib.h>
+#include "ATM.h"
+#include "currency.h"
+#include "Edit.h"
 
 int For_Delay(int j)
 {

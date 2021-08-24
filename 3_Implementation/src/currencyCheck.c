@@ -1,9 +1,13 @@
 #include "currency.h"
 #include <stdio.h>
 #include <string.h>
-#include "fun.h"
+#include <bank.h>
 #include <math.h>
 #include <stdlib.h>
+#include<currency.h>
+#include<transfer.h>
+#include<ATM.h>
+#include<transaction.h>
 #define Swiss_Franc_rate 1.09 /*Swiss Franc rate*/
 checkCurrency FILE_NOT_EXIST(FILE *ptr)
 {

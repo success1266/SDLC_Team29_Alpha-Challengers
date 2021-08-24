@@ -4,9 +4,8 @@ SRC = src/atm.c \
 src/balance_Check.c \
 src/checkATM.c \
 src/checkEdit.c \
-src/checkFund.c \
+src/fundCheck.c \
 src/checkMenu.c \
-src/checkOSMeter.c \
 src/checkTrans.c \
 src/close.c \
 src/CurrencyExchange.c \
@@ -28,7 +27,7 @@ src/view_list.c \
 src/fund_transfer.c \
 src/Online_Safety_Meter.c \
 
-TEST = test.c\
+TEST = test/test.c\
 unity/unity.c
 
 BUILD_DIR = Build

@@ -4,8 +4,8 @@
 typedef enum checkCurrency
 {
     FILE_NOT_FOUND,
-    INVALID_ENTRY,
-    FOUND,
+    //INVALID_ENTRY,
+    // FOUND,
     NOT_FOUND,
     OVER_FLOW,
     RATE_FOUND_SUCCESSFULLY,
