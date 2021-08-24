@@ -1,7 +1,7 @@
 #include "transfer.h"
 #include <stdio.h>
 #include <string.h>
-#include "fun.h"
+#include "bank.h"
 #include <math.h>
 #include <stdlib.h>
 
