@@ -8,7 +8,6 @@
 #include "transaction.h"
 #include "transfer.h"
 #include "bank.h"
-#include "osmeter.h"
 
 
 /* Required by the unity test framework */
@@ -79,7 +78,6 @@ void test9(void)
 void test10(void)
     {
     TEST_ASSERT_EQUAL(99999999, For_Delay(100000000));
-    TEST_ASSERT_EQUAL(111111110, For_Delay(111111111));
     }
 
 void test11(void)
@@ -87,38 +85,38 @@ void test11(void)
     TEST_ASSERT_EQUAL(SUCCESS,  add_account( "1234", "Priya", "06", "08", "1998", "23", "patna", "Indian", "856321479", "Saving", "15000", "05", "25", "2021"));
     }
 
-// void test12(void)
-//     {
-//         FILE* ptr;
-//         ptr = fopen("record.dat", "r");
-//         TEST_ASSERT_EQUAL(FOUND, Search_Account(ptr, 6));
-//         TEST_ASSERT_EQUAL(NOT_FOUND, Search_Account(ptr, 123));
-//     }
+void test12(void)
+    {
+        FILE* ptr;
+        ptr = fopen("record.dat", "r");
+        TEST_ASSERT_EQUAL(FOUND, Search_Account(ptr, 6));
+        TEST_ASSERT_EQUAL(NOT_FOUND, Search_Account(ptr, 123));
+    }
 
-// void test_safteyCalculator(void)
-// {
-//   TEST_ASSERT_EQUAL(12, Safety_Calculator(1));
-//   TEST_ASSERT_EQUAL(25, Safety_Calculator(2));
-//   TEST_ASSERT_EQUAL(37, Safety_Calculator(3));
-//   TEST_ASSERT_EQUAL(50, Safety_Calculator(4));
-//   TEST_ASSERT_EQUAL(62, Safety_Calculator(5));
-//   TEST_ASSERT_EQUAL(75, Safety_Calculator(6));
-//   TEST_ASSERT_EQUAL(87, Safety_Calculator(7));
-//   TEST_ASSERT_EQUAL(100, Safety_Calculator(8));
+void test_safteyCalculator(void)
+{
+  TEST_ASSERT_EQUAL(12, Safety_Calculator(1));
+  TEST_ASSERT_EQUAL(25, Safety_Calculator(2));
+  TEST_ASSERT_EQUAL(37, Safety_Calculator(3));
+  TEST_ASSERT_EQUAL(50, Safety_Calculator(4));
+  TEST_ASSERT_EQUAL(62, Safety_Calculator(5));
+  TEST_ASSERT_EQUAL(75, Safety_Calculator(6));
+  TEST_ASSERT_EQUAL(87, Safety_Calculator(7));
+  TEST_ASSERT_EQUAL(100, Safety_Calculator(8));
   
-// }
+}
 
-// void test_negative_safteyCalculator(void)
-// {
-//   TEST_ASSERT_EQUAL(0, Safety_Calculator(-1));
-//   TEST_ASSERT_EQUAL(0, Safety_Calculator(-5));
-//   TEST_ASSERT_EQUAL(0, Safety_Calculator(-10));
-// }
-// void test_zero_safteyCalculator(void)
-// {
-//   TEST_ASSERT_EQUAL(0, Safety_Calculator(0));
+void test_negative_safteyCalculator(void)
+{
+  TEST_ASSERT_EQUAL(0, Safety_Calculator(-1));
+  TEST_ASSERT_EQUAL(0, Safety_Calculator(-5));
+  TEST_ASSERT_EQUAL(0, Safety_Calculator(-10));
+}
+void test_zero_safteyCalculator(void)
+{
+  TEST_ASSERT_EQUAL(0, Safety_Calculator(0));
 
-// }
+}
 
 void test13(void)
     {
@@ -184,6 +182,41 @@ void test24(void)
     TEST_ASSERT_EQUAL(VALID_ENTRY, OUTPUT(choice));
     }
 
+void transfer_test1()
+{
+    FILE* ptr;
+    ptr = fopen("new.dat", "r");
+    TEST_ASSERT_EQUAL(FILE_NOT_PRESENT, FILE_NOT_PRES(ptr));
+}
+void transfer_test2()
+{
+     FILE* ptr;
+    ptr = fopen("record.dat", "r");
+    int amt= 0;
+    TEST_ASSERT_EQUAL(INSUFFICIENT_BALANCE, INSUFFICIENT_ENTRY(amt,ptr));
+}
+void transfer_test3()
+{
+     FILE* ptr;
+    ptr = fopen("record.dat", "r");
+    int amt= 20;
+
+    TEST_ASSERT_EQUAL(SUFFICIENT_BALANCE, INSUFFICIENT_ENTRY(amt,ptr));
+
+}
+void transfer_test4()
+{
+    FILE* ptr;
+    ptr = fopen("record.dat", "r");
+    TEST_ASSERT_EQUAL(ACCOUNT_PRESENT, ACC_PRESENT(ptr));
+}
+void transfer_test5()
+{
+    FILE* ptr;
+    ptr = fopen("record.dat", "r");
+    TEST_ASSERT_EQUAL(FILE_PRESENT, FILE_NOT_PRES(ptr));
+}
+
 //////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////
 int main()
@@ -200,10 +233,10 @@ int main()
     RUN_TEST(test9);
     RUN_TEST(test10);
     RUN_TEST(test11);
-    // RUN_TEST(test12);
-    // RUN_TEST(test_safteyCalculator);
-    // RUN_TEST(test_negative_safteyCalculator);
-    // RUN_TEST(test_zero_safteyCalculator);
+    RUN_TEST(test12);
+    RUN_TEST(test_safteyCalculator);
+    RUN_TEST(test_negative_safteyCalculator);
+    RUN_TEST(test_zero_safteyCalculator);
     RUN_TEST(test13);
     RUN_TEST(test14);
     RUN_TEST(test15);
@@ -216,6 +249,10 @@ int main()
     RUN_TEST(test22);
     RUN_TEST(test23);
     RUN_TEST(test24);
+    RUN_TEST(transfer_test1);
+    RUN_TEST(transfer_test2);
+    RUN_TEST(transfer_test3);
+    RUN_TEST(transfer_test4);
 
     // RUN_TEST(test13);
 
