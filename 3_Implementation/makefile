@@ -28,6 +28,7 @@ src/view_list.c \
 src/fund_transfer.c \
 src/Online_Safety_Meter.c \
 
+
 TEST = test/test.c\
 unity/unity.c
 
