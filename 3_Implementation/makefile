@@ -2,7 +2,7 @@ PROJ_NAME = Bank_Management_System
 
 SRC = src/atm.c \
 src/balance_Check.c \
-src/checkATM.c \
+src/checkAtm.c \
 src/checkEdit.c \
 src/fundCheck.c \
 src/checkMenu.c \
