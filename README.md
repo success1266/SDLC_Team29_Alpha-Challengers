@@ -29,7 +29,7 @@ Our motto is to develop a software program for managing the entire bank process 
 
 PS No. | Name | Features | Issues Raised  |Issues Resolved| No Test Cases | Test Case Pass |
 -------|----- |----------|----------------|---------------|---------------|--------------- |
- 99005681 | Anshika Kushwaha | - | - | - | - | -|
+ 99005681 | Anshika Kushwaha | Update information of existing account | - | - | - | -|
  99005654 | Vijay Kumar Reddy Pullannagari | Fund Transfer | 1 | - | 5 | 5|
  99005674 | Saurabh Kumar | Online Safety Meter | 4 | 4 | 10 | 10 |
  99005676 | Priya Raj | - | - | - | - | -|
