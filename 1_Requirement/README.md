@@ -100,7 +100,7 @@ module can easily be integrated with it.
 
 *	local storage of 100GB or above
 
-* Visual Studio
+*   Visual Studio code or any code editor
 
 *	Ubuntu or Windows OS required with C compiler pre installed.
 
