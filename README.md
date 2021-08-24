@@ -13,6 +13,12 @@ Banking is defined as the business activity of accepting and safeguarding money 
 
 Our motto is to develop a software program for managing the entire bank process related to Administration accounts customer accounts and to keep each every track about their property and their various transaction processes efficiently.
 
+## Project Analysis
+Build|Code Coverage|Cpp Check|Git inspector| Dynamic code Analysis|Static Code|Unit Testing|
+-------|----- |----------|----------------|---------------|---------------|--------------- |
+[![BUILD](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/build.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/build.yml)|[![Code Coverage](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/code_coverage.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/code_coverage.yml)|[![Cpp check](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/cppcheck.yml)|[![Git Inspector](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/git_inspector.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/git_inspector.yml)|[![Dynamic code analysis](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/valgrid.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/valgrid.yml)|[![Static Code Analysis](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/static_code_analysis.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/static_code_analysis.yml)|[![Unit Testing](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/unit_testing.yml/badge.svg)](https://github.com/YuvarajDakhane/SDLC_Team29_Alpha-Challengers/actions/workflows/unit_testing.yml)
+
+
 ## Folder Structure
 |Folder               | Description
 |---------------------|------------------------------------------
