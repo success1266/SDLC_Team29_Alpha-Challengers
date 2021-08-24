@@ -25,37 +25,20 @@ Our motto is to develop a software program for managing the entire bank process 
 |`5_Report`           | Code Execution Images and Videos
 |`6_ImagesAndVideos   | Code Execution Images and Videos
 
-## Project Analysis
-|Build               | Unity     | Git Inspector (using github.io option) | Cpp Check	| Code Inspector |
-|--------------------|-----------|----------------------------------------|-----------|----------------|
-|                    |           |                                        |           |                |
-
-
 ## Contributors List and Summary
 
 PS No. | Name | Features | Issues Raised  |Issues Resolved| No Test Cases | Test Case Pass |
 -------|----- |----------|----------------|---------------|---------------|--------------- |
- 99005681 | Anshika Kushwaha | Come up with feactures called edit the user details and created interest function, design and implemented it  | - | - | - | -|
- 99005654 | Vijay Kumar Reddy Pullannagari | Come up with features called of Fund transfer feature, design and implemented it | - | - | - | -|
- 99005674 | Saurabh Kumar | Come up with feature called Quiz for Online safety meter. He design and implemented it. | - | - | - | -|
- 99005676 | Priya Raj | Come up with reserch and feature called create account and transation withdrawn and deposit money. Implemented and design successfully | - | - | - | -|
- 99005680 | Yuvaraj Dakhane | Come up with ATM fectures were user can check balance withdraw or deposit money. And work on Header file. Impleted and design it. | 3 | 4 | 5 | 5 |
- 99005659 | Amit Kumar Singh | Come up with feature called Currency Exchange and did some constrains operation on it. And he work on Main file. Impleted and design it. | - | - | - | -|
- 99005774 | Kumar Ritesh | Come up with feacture called remove exting account and view customer list. Impleted and design it. | - | - | - | -|
- 99005805 | Rohan Kumar T | come up with feature called check the details of existing account. Implemented and design it | - | - | - | -|
- 
- 
-## Usage Of the Project
-###### * For Building the main application
-  make create
-###### *For Running the main application
-  make run
-###### * For Building the test file
-  make create_test
-###### * For Running the test file
-  make run_test
+ 99005681 | Anshika Kushwaha | - | - | - | - | -|
+ 99005654 | Vijay Kumar Reddy Pullannagari | Fund Transfer | - | - | - | -|
+ 99005674 | Saurabh Kumar | Online Safety Meter | 4 | 4 | 10 | 10 |
+ 99005676 | Priya Raj | - | - | - | - | -|
+ 99005680 | Yuvaraj Dakhane | ATM Feature | - | - | - | -|
+ 99005659 | Amit Kumar Singh | Currency Exchange Feature and some constrains operation on it | - | - | - | -|
+ 99005774 | Kumar Ritesh | - | - | - | - | -|
+ 99005805 | Rohan Kumar T | Check details of Existing account | - | 1 | - | -|
        
        
-
+## Project Analysis
 
        
