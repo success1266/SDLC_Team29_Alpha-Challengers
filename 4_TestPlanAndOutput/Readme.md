@@ -8,5 +8,5 @@
 |   L_08    | Enter Valid operation (Either 1 or 2). | Enter Invalid input | INVALID_ENTRY | INVALID_ENTRY | Pass |
 |   L_09    | Check Either Money is deposited or not if updated amount and exiting acoount is equal then deposited money| Enter amount you want to deposit | SUCCESS | SUCCESS | Pass |
 |   L_10    | Check Either Money is withdrawn or not if updated amount and exiting acoount is equal then deposited money| Enter amount you want to withdraw |   SUCCESS |  SUCCESS | Pass |
-| L_11     | Check wehther that user account is already present in our database or not | SUCCESS | SUCCESS | PASS |
-| L_12     | To check and verify the user's given entry should not be empty | SUCCESS | FAIL | PASS | 
+| L_11     | Check wehther that user account is already present in our database or not | Enter your account number | SUCCESS | SUCCESS | PASS |
+| L_12     | To check and verify the user's given entry should not be empty | Enter user details | SUCCESS | FAIL | PASS | 
