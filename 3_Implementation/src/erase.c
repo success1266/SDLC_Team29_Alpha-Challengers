@@ -1,7 +1,6 @@
 #include "bank.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <windows.h>
 #include <stdbool.h>
 void erase(void)
 {
@@ -50,7 +49,7 @@ void erase(void)
     {
         printf("\nEnter 1 to go to the main menu and 0 to exit:");
         scanf("%d", &main_exit);
-        system("cls");
+        fflush(stdin);
         if (main_exit == 1)
             menu();
         else
