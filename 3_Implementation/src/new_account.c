@@ -1,7 +1,6 @@
 #include "bank.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <windows.h>
 #include <stdbool.h>
 void new_acc()
 
