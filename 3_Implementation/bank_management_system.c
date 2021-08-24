@@ -36,7 +36,7 @@ int main()
     
         printf("\n\n\n\n\n\t\t\t\tEnter the password to login:");
         scanf("%s", pass);
-        if (strcmp(pass, password) == 0)
+        if (pass == password)
         {
             printf("\n\nPassword Match!\nLOADING");
             for (i = 0; i <= 6; i++)
