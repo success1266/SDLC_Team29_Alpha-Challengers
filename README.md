@@ -43,11 +43,12 @@ PS No. | Name | Features | Issues Raised  |Issues Resolved| No Test Cases | Test
        
 ## Usage Of the Project   
  
-   ###### #For Building the main application
-    ##### make create
-   ###### #For Running the main application
-    ##### make run
-   ###### #For Building the test file
-    ##### make create_test
-   ###### #For Running the test file
-    ##### make run_test
+    # For Building the main application
+       make create
+    # For Running the main application
+       make run
+    # For Building the test file
+       make create_test
+    # For Running the test file
+       make run_test
+
