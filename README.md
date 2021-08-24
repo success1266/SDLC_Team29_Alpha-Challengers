@@ -43,3 +43,13 @@ PS No. | Name | Features | Issues Raised  |Issues Resolved| No Test Cases | Test
  99005774 | Kumar Ritesh | Remove an existing account | - | - | - | -|
  99005805 | Rohan Kumar T | Check details of Existing account | - | 1 | - | -|
        
+## Usage Of the Project   
+ 
+###### #For Building the main application
+ ##### make create
+###### #For Running the main application
+##### make run
+###### #For Building the test file
+##### make create_test
+###### #For Running the test file
+##### make run_test
