@@ -27,35 +27,35 @@ void see(void)
 
                 printf("\nAccount NO.:%d\nName:%s \nDOB:%d/%d/%d \nAge:%d \nAddress:%s \nCitizenship No:%s \nPhone number:%.0lf \nType Of Account:%s \nAmount deposited:$ %.2f \nDate Of Deposit:%d/%d/%d\n\n", add.acc_no, add.name, add.dob.month, add.dob.day, add.dob.year, add.age, add.address, add.citizenship, add.phone,
                        add.acc_type, add.amt, add.deposit.month, add.deposit.day, add.deposit.year);
-                if (strcmp(add.acc_type, "fixed1") == 0)
+                if (add.acc_type == "fixed1")
                 {
                     time = 1.0;
                     rate = 9;
                     intrst = interest(time, add.amt, rate);
                     printf("\n\nYou will get $%.2f as interest on %d/%d/%d", intrst, add.deposit.month, add.deposit.day, add.deposit.year + 1);
                 }
-                else if (strcmp(add.acc_type, "fixed2") == 0)
+                else if (add.acc_type == "fixed2")
                 {
                     time = 2.0;
                     rate = 11;
                     intrst = interest(time, add.amt, rate);
                     printf("\n\nYou will get $.%.2f as interest on %d/%d/%d", intrst, add.deposit.month, add.deposit.day, add.deposit.year + 2);
                 }
-                else if (strcmp(add.acc_type, "fixed3") == 0)
+                else if (add.acc_type == "fixed3"0)
                 {
                     time = 3.0;
                     rate = 13;
                     intrst = interest(time, add.amt, rate);
                     printf("\n\nYou will get $.%.2f as interest on %d/%d/%d", intrst, add.deposit.month, add.deposit.day, add.deposit.year + 3);
                 }
-                else if (strcmp(add.acc_type, "saving") == 0)
+                else if (add.acc_type == "saving")
                 {
                     time = (1.0 / 12.0);
                     rate = 8;
                     intrst = interest(time, add.amt, rate);
                     printf("\n\nYou will get $.%.2f as interest on %d of every month", intrst, add.deposit.day);
                 }
-                else if (strcmp(add.acc_type, "current") == 0)
+                else if (sadd.acc_type == "current")
                 {
 
                     printf("\n\nYou will get no interest\a\a");
@@ -69,41 +69,41 @@ void see(void)
         scanf("%s", &check.name);
         while (fscanf(ptr, "%d %s %d/%d/%d %d %s %s %lf %s %f %d/%d/%d", &add.acc_no, add.name, &add.dob.month, &add.dob.day, &add.dob.year, &add.age, add.address, add.citizenship, &add.phone, add.acc_type, &add.amt, &add.deposit.month, &add.deposit.day, &add.deposit.year) != EOF)
         {
-            if (strcmpi(add.name, check.name) == 0)
+            if (add.name == check.name)
             {
                 fflush(stdin);
                 test = 1;
                 printf("\nAccount No.:%d\nName:%s \nDOB:%d/%d/%d \nAge:%d \nAddress:%s \nCitizenship No:%s \nPhone number:%.0lf \nType Of Account:%s \nAmount deposited:$%.2f \nDate Of Deposit:%d/%d/%d\n\n", add.acc_no, add.name, add.dob.month, add.dob.day, add.dob.year, add.age, add.address, add.citizenship, add.phone,
                        add.acc_type, add.amt, add.deposit.month, add.deposit.day, add.deposit.year);
-                if (strcmp(add.acc_type, "fixed1") == 0)
+                if (add.acc_type == "fixed1"
                 {
                     time = 1.0;
                     rate = 9;
                     intrst = interest(time, add.amt, rate);
                     printf("\n\nYou will get $.%.2f as interest on %d/%d/%d", intrst, add.deposit.month, add.deposit.day, add.deposit.year + 1);
                 }
-                else if (strcmp(add.acc_type, "fixed2") == 0)
+                else if (add.acc_type == "fixed2")
                 {
                     time = 2.0;
                     rate = 11;
                     intrst = interest(time, add.amt, rate);
                     printf("\n\nYou will get $.%.2f as interest on %d/%d/%d", intrst, add.deposit.month, add.deposit.day, add.deposit.year + 2);
                 }
-                else if (strcmp(add.acc_type, "fixed3") == 0)
+                else if (add.acc_type == "fixed3")
                 {
                     time = 3.0;
                     rate = 13;
                     intrst = interest(time, add.amt, rate);
                     printf("\n\nYou will get $.%.2f as interest on %d/%d/%d", intrst, add.deposit.month, add.deposit.day, add.deposit.year + 3);
                 }
-                else if (strcmp(add.acc_type, "saving") == 0)
+                else if (add.acc_type == "saving")
                 {
                     time = (1.0 / 12.0);
                     rate = 8;
                     intrst = interest(time, add.amt, rate);
                     printf("\n\nYou will get $.%.2f as interest on %d of every month", intrst, add.deposit.day);
                 }
-                else if (strcmp(add.acc_type, "current") == 0)
+                else if (add.acc_type == "current")
                 {
 
                     printf("\n\nYou will get no interest\a\a");
