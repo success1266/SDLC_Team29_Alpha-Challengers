@@ -137,7 +137,7 @@ void currency()
         count++;
         printf("\n\n\nEnter 1 to go to the main menu and 0 to exit:");
         scanf("%d", &main_exit);
-        system("cls");
+        fflush(stdin);
         if (main_exit == 1)
             menu();
         else
@@ -148,7 +148,7 @@ void currency()
         int main_exit;
         printf("\n\n\nEnter 1 to go to the main menu and 0 to exit:");
         scanf("%d", &main_exit);
-        system("cls");
+        fflush(stdin);
         if (main_exit == 1)
             menu();
         else
