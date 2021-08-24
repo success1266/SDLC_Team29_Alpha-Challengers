@@ -1,4 +1,13 @@
-
+# High Level Test Plan
+|Test ID|Description|Input|Expected Output| Actual output |
+|---|---|---|---|---|---|
+| H_01 | Check if the menu is displayed properly | - | Formatted menu page | Formatted menu page | 
+| H_02 | User should able to Log in with existing credentials | Login Credentials | TRUE | TRUE |  
+| H_03 | User should Unable to login with invalid credentials | Login Credentials | FALSE | FALSE | 
+| H_04 | Check if the menu is displayed properly | Login Credentials | Formatted menu page | Formatted menu page | 
+| H_05 | Not Stuck inside any Function | Function call | Proper function execution with return type and Message | Proper function execution with return type and Message | 
+| H_06 | Check If User want to Continue or exit | Proper function execution with return type and Memu | | TRUE | TRUE |
+| H_07 | User able to check his saftey percentage in online banking	 | - | TRUE | TRUE |
 
 # Low level Test Plan
 | TEST No. | Description | Expected Input |Expected output | Actaual Output | Pass/Fail |
