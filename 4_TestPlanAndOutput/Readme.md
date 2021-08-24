@@ -21,3 +21,7 @@
 | L_12 | Performing for Delay function | -111111111 | 0 | 0 | PASS |
 | L_13     | Check wehther that user account is already present in our database or not | Enter your account number | SUCCESS | SUCCESS | PASS |
 | L_14     | To check and verify the user's given entry should not be empty | Enter user details | SUCCESS | SUCCESS | PASS | 
+| L_15  | Enter Valid Operation |Enter Valid Input| VALID_ENTRY | VALID_ENTRY | Pass |
+| L_16  | To check interest function |(1, 1000, 1)| 10 | 10 | Pass |
+| L_17 | To check interest function |(3, 6, 10000)| 1800 | 1800 | Pass |
+| L_18 | To check interest function |(1, 3, 50000)| 1500 | 1500 | Pass |
